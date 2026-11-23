@@ -1,0 +1,10 @@
+{
+  "description": "Simula el dilema del maletín entre agentes de IA o jugadores, con controles de privacidad, análisis de resultados y exportación de datos para investigación en teoría de juegos.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
