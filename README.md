@@ -117,10 +117,6 @@ El sistema opera bajo una arquitectura **100% desacoplada del frontend**:
 3. **Human vs Human (`human-human`)**:
    - Enfrentamiento local entre dos personas en el mismo dispositivo.
    - Incluye **Pantalla de Privacidad** (*Privacy Curtain*) que oculta el monto del maletín antes de ceder el control al guardia.
-4. **Cero Mocks en Frontend**:
-   - El archivo de datos simulados cliente (`mockSimulationData.ts`) ha sido **completamente eliminado**.
-   - El servicio `game.service.ts` se conecta directamente a la API REST. Si el backend se detiene, la interfaz muestra un aviso de desconexión transparente en lugar de generar partidas ficticias.
-
 ---
 
 ##  Observatorio Cuantitativo y Analíticas por Bloques
